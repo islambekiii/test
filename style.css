@@ -1,0 +1,37 @@
+
+h1 {
+    display: none;
+  }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .Mobile {
+      display: block;
+    }
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .Tablet {
+        display:block;
+    }
+    body {
+        background-color: blue;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .Laptop {
+        display:block;
+    }
+    body{
+        background-color: brown;
+    }
+}
+
+    @media screen and (min-width: 1200px) and (max-width: 1500px) {
+        .Desktop {
+            display:block;
+        }
+        body{
+            background-color: burlywood;
+        }
+    }
